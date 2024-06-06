@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.pro.foodorder.R
+import com.pro.foodorder.activity.OrderHistoryActivity
 import com.pro.foodorder.adapter.OrderAdapter.OrderViewHolder
 import com.pro.foodorder.constant.Constant
 import com.pro.foodorder.databinding.ItemOrderBinding
@@ -40,6 +41,11 @@ class OrderAdapter(private var mContext: Context?,
             paymentMethod = Constant.PAYMENT_METHOD_CASH
         }
         holder.mItemOrderBinding.tvPayment.text = paymentMethod
+        holder.mItemOrderBinding.btnDiscardOrder.setOnClickListener {
+            if(order != null){
+                (mContext as OrderHistoryActivity).discardOrder(order)
+            }
+        }
     }
 
     override fun getItemCount(): Int {

@@ -137,6 +137,7 @@
 
     <string name="msg_get_date_error">Lỗi đã xảy ra, vui lòng thử lại sau</string>
     <string name="msg_order_success">Đặt hàng thành công, vui lòng check đơn hàng trong phần Lịch sử</string>
+    <string name="msg_discard_order_success">Hủy đơn hàng thành công !!!</string>
 
     <string name="msg_confirm_login_another_device">Bạn có chắc chắn muốn thoát ứng dụng?</string>
     <string name="msg_email_require">Vui lòng nhập địa chỉ email</string>
@@ -165,5 +166,5 @@
     <string name="msg_edit_food_success">Chỉnh sửa món ăn thành công !!!</string>
     <string name="msg_delete_title">Xác nhận xóa</string>
     <string name="msg_confirm_delete">Bạn có chắc chắn muốn xóa mục này không?</string>
-    <string name="msg_delete_movie_successfully">Xoá món ăn thành công !!!</string>
+    <string name="msg_delete_food_successfully">Xoá món ăn thành công !!!</string>
 </resources>
