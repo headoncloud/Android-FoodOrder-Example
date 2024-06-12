@@ -28,8 +28,8 @@ class MainActivity : BaseActivity() {
                     0 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_home).isChecked = true
                     1 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_cart).isChecked = true
                     2 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_feedback).isChecked = true
-                    3 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_contact).isChecked = true
-                    4 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_account).isChecked = true
+//                    4 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_contact).isChecked = true
+                    3 -> mActivityMainBinding!!.bottomNavigation.menu.findItem(R.id.nav_account).isChecked = true
                 }
             }
         })
@@ -44,11 +44,11 @@ class MainActivity : BaseActivity() {
                 R.id.nav_feedback -> {
                     mActivityMainBinding!!.viewpager2.currentItem = 2
                 }
-                R.id.nav_contact -> {
-                    mActivityMainBinding!!.viewpager2.currentItem = 3
-                }
+//                R.id.nav_contact -> {
+//                    mActivityMainBinding!!.viewpager2.currentItem = 4
+//                }
                 R.id.nav_account -> {
-                    mActivityMainBinding!!.viewpager2.currentItem = 4
+                    mActivityMainBinding!!.viewpager2.currentItem = 3
                 }
             }
             true
