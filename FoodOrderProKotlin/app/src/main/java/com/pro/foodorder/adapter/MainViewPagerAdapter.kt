@@ -12,13 +12,13 @@ class MainViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAd
             0 -> HomeFragment()
             1 -> CartFragment()
             2 -> FeedbackFragment()
-            3 -> ContactFragment()
-            4 -> AccountFragment()
+//            4 -> ContactFragment()
+            3 -> AccountFragment()
             else -> HomeFragment()
         }
     }
 
     override fun getItemCount(): Int {
-        return 5
+        return 4
     }
 }
